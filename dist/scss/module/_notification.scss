@@ -1,0 +1,35 @@
+.ad-snackbar {
+    display: block;
+    opacity: 0;
+    height: 48px;
+    min-width: 288px;
+    max-width: 568px;
+    border-radius: 2px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 24px;
+    right: -568px;
+    background-color: $dark;
+    padding: 0;
+    color: white;
+    margin: 0 auto;
+    z-index: 1000;
+
+    p {
+        padding: 14px 24px;
+        display: inline-block;
+        margin: 0;
+        margin-top: 2px;
+
+        &+.ad-btn {
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+    }
+
+    .ad-btn {
+        font-size: 14px;
+    }
+
+    animation: notify 5s 1 ease;
+}

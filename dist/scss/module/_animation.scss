@@ -1,0 +1,291 @@
+// SnackBar Animation
+@keyframes notify {
+    0% {
+        right: -568px;
+        display: block;
+        opacity: 0;
+    }
+
+    10% {
+        right: -568px;
+        display: block;
+        opacity: 0;
+    }
+
+    20% {
+        right: 24px;
+        display: block;
+        opacity: 1;
+    }
+
+    90% {
+        right: 24px;
+        display: block;
+        opacity: 1;
+    }
+
+    100% {
+        right: -568px;
+        display: none;
+        opacity: 0;
+    }
+}
+
+// ToolTip Animation
+@keyframes ad-tipAnim {
+    from {
+        height: 0;
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    from {
+        height: auto;
+        opacity: 0.95;
+        margin-top: 20px;
+        /*background-color:blue;*/
+    }
+}
+
+// Loading Animation
+@keyframes loaded {
+    from {
+        @include scale(0);
+        opacity: 0;
+    }
+
+    to {
+        @include scale(1.5);
+        opacity: 0.2;
+    }
+}
+
+@-webkit-keyframes lds-rotate {
+    0% {
+        border-color: $prim;
+    }
+
+    30% {
+        border-color: $pink;
+    }
+
+    50% {
+        border-color: $blue;
+    }
+
+    70% {
+        border-color: $pink;
+    }
+
+    100% {
+        border-color: $prim;
+    }
+}
+
+@-moz-keyframes lds-rotate {
+    0% {
+        border-color: $prim;
+    }
+
+    30% {
+        border-color: $pink;
+    }
+
+    50% {
+        border-color: $blue;
+    }
+
+    70% {
+        border-color: $pink;
+    }
+
+    100% {
+        border-color: $prim;
+    }
+}
+
+@keyframes lds-rotate {
+    0% {
+        border-color: $prim;
+    }
+
+    30% {
+        border-color: $pink;
+    }
+
+    50% {
+        border-color: $blue;
+    }
+
+    70% {
+        border-color: $pink;
+    }
+
+    100% {
+        border-color: $prim;
+    }
+}
+
+@-webkit-keyframes lds-rippleIn {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
+// RippleIn
+@-moz-keyframes lds-rippleIn {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
+@keyframes lds-rippleIn {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
+// RippleOut
+@-webkit-keyframes lds-rippleOut {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+@-moz-keyframes lds-rippleOut {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+@keyframes lds-rippleOut {
+    0% {
+        // box-shadow: 0 0 1px 3px red;
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    90% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        // box-shadow: 0 0 1px 5px red;
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+@keyframes isLoading {
+    0% {
+        background-color: rgba($pink, 0.7);
+        left: 16px;
+        right: 80%;
+    }
+
+    50% {
+        background-color: rgba($yellow, 0.7);
+    }
+
+    100% {
+        left: 80%;
+        right: 16px;
+        background-color: rgba($pink, 0.7);
+    }
+}
+
+@keyframes anim-adLoading {
+    0% {
+        left: -5%;
+        background-color: $prim;
+    }
+
+    30% {
+        background-color: $pink;
+    }
+
+    50% {
+        background-color: $blue;
+    }
+
+    70% {
+        background-color: $pink;
+    }
+
+    100% {
+        background-color: $prim;
+        left: 95%;
+    }
+}

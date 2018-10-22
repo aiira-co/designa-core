@@ -1,0 +1,39 @@
+//floating spans
+.rFloat,
+.float-right {
+    float: right;
+}
+
+.lFloat,
+.float-left {
+    float: left;
+}
+
+// text format
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+.text-normal {
+    text-transform: none;
+}
+
+.ad-spread {
+    letter-spacing: 4px;
+}

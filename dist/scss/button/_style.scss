@@ -1,0 +1,35 @@
+.ad-btn {
+    &.ad-block {
+        border-radius: 0 !important;
+    }
+
+    //Button Colors
+    &.ad-default {
+        color: $dark;
+        background-color: darken($smoke, 20);
+
+        &:hover {
+            background-color: $smoke;
+        }
+    }
+
+    //Button Type
+    &.ad-round {
+        border-radius: 30px !important;
+
+        &.ad-icon {
+            border-radius: 50% !important;
+        }
+    }
+
+    &.ad-flat {
+        box-shadow: none;
+        text-shadow: none;
+        border: none;
+    }
+
+    &.clear {
+        background-color: transparent;
+        color: inherit;
+    }
+}

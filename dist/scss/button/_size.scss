@@ -1,0 +1,63 @@
+.ad-btn {
+    &.ad-xs {
+        padding: 5px 8px;
+        font-size: $baseFontSize - 4;
+        height: 27px;
+
+        &.ad-icon {
+            // padding: 20px;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+    }
+
+    &.ad-sm {
+        padding: 10px 15px;
+        height: auto;
+
+        &.ad-icon {
+            // padding: 20px;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+
+    &.ad-md {
+        line-height: 42px;
+        padding: 0 25px;
+        font-size: 16px;
+
+        &.ad-icon {
+            padding: 0;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+
+    &.ad-lg {
+        padding: 15px 20px;
+        font-size: $baseFontSize + 5;
+
+        &.ad-icon {
+            // padding: 20px;
+            padding: 0;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+
+    &.ad-full {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

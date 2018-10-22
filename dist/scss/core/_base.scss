@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $baseFontFamily;
+  font-size: $baseFontSize;
+  font-weight: normal;
+  color: $baseFontColor;
+  background-color: $ash;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// Webkit Scrollbar
+::-webkit-scrollbar {
+  background-color: whitesmoke;
+  width: 8px;
+  @include transEase(0.3s);
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+  opacity: 1;
+}
+
+::-webkit-scrollbar-thumb {
+  //   border-radius: 2.5px;
+  //   width: 4px;
+  //   background-color: rgba($dark, 0.8);
+  background-color: #818b99;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+
+// Angular Normalization
+[routerLink] {
+  outline: none;
+}

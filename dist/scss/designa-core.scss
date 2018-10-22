@@ -1,0 +1,30 @@
+/*
+   ** DesignaCore
+   ** Author: Kofi Owusu-Afriyie
+   **Version: 2.5.0
+
+*/
+/* BASE-- base, variables, mixins, normalize */
+@import 'core/_variables.scss';
+@import 'core/_mixins.scss';
+@import 'core/_normalize.scss';
+@import 'core/_base.scss';
+// Typography
+@import 'typography/_face.scss';
+@import 'typography/_header.scss';
+@import 'typography/_align.scss';
+// Color
+@import 'color/_font.scss';
+@import 'color/_background.scss';
+// Button
+@import 'button/_mixin.scss';
+@import 'button/_button.scss';
+@import 'button/_size.scss';
+@import 'button/_style.scss';
+@import 'button/_color.scss';
+// Module
+@import 'module/_animation.scss';
+@import 'module/_notification.scss';
+@import 'module/_loading.scss';
+@import 'module/_tooltip.scss';
+@import 'module/_divider.scss';

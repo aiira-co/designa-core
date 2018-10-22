@@ -1,0 +1,123 @@
+// Modify it if posible. the animation is wrong
+.ad-loading {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 4px;
+    z-index: 1000;
+    background-color: rgba($prim, 0.2);
+
+    &::after {
+        position: absolute;
+        left: -5%;
+        content: ' '; // right:0;
+        width: 10%;
+        height: 4px;
+        bottom: 0;
+        background-color: $prim; // animation: adLoading 1.5s infinite alternate ease-in;
+        animation: anim-adLoading 1.5s ease-in-out 0s alternate infinite;
+    }
+}
+
+.is-loading {
+    position: relative;
+
+    &:after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: red;
+        content: '';
+        display: block;
+        opacity: 1 !important;
+        animation: isLoading 1.2s ease-in-out 0s alternate infinite;
+    }
+}
+
+.ad-loaded {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    background-color: blue;
+    position: relative;
+    border-radius: 50%;
+    opacity: 0;
+    animation: loaded 0.5s ease-in 1;
+}
+
+
+.ad-spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $dark;
+    z-index: 60;
+
+    &.bg-white {
+        background-color: white;
+        color: $dark;
+    }
+
+    &.bg-smoke {
+        background-color: $smoke;
+        color: $dark;
+    }
+
+    &.bg-prim {
+        background-color: $prim;
+        color: white;
+    }
+
+    &.bg-pink {
+        background-color: $pink;
+        color: white;
+    }
+
+    &.bg-tgreen {
+        background-color: $tGreen;
+        color: $dark;
+    }
+
+    // &:before {
+    //     position: absolute;
+    //     width: 60px;
+    //     height: 60px;
+    //     content: ''; // background-color: greenyellow;
+    //     left: 50%;
+    //     margin-left: -33px;
+    //     top: 50%;
+    //     margin-top: -33px;
+    //     border-radius: 50%;
+    //     border: 2px solid white;
+    //     // -webkit-animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
+    //     // -moz-animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
+    //     // animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
+    // }
+    &:after {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        content: ''; // background-color: greenyellow;
+        left: 50%;
+        margin-left: -33px;
+        top: 50%;
+        margin-top: -33px;
+        border-radius: 50%;
+        border: 2px solid $pink;
+        transform: scale(0.9);
+        transition: all 0.3s ease-out;
+        -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1,
+            lds-rotate 3s ease-in-out 0.5s infinite;
+        -moz-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1,
+            lds-rotate 3s ease-in-out 0.5s infinite;
+        animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1,
+            lds-rotate 3s ease-in-out 0.5s infinite;
+    }
+}

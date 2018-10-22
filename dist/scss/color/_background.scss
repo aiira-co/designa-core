@@ -1,0 +1,67 @@
+
+//BACKGROUND COLORS HERE
+.bg-white {
+    @include cardColor(#fff, $dark);
+  }
+  
+  .bg-tq {
+    @include cardColor(#227586);
+  }
+  
+  .bg-green {
+    @include cardColor(#00796b, white);
+  }
+  
+  .bg-purple {
+    @include cardColor(#871e6a);
+  }
+  
+  .bg-color {
+    @include cardColor(#ab1656);
+  }
+  
+  .bg-blue {
+    @include cardColor($blue, white);
+  }
+  
+  .bg-dark {
+    @include cardColor($dark, white);
+    .ad-input {
+      input {
+        background-color: rgba(black, 0.2);
+      }
+  
+      &.outline {
+        input {
+          border-color: rgba(white, 0.05);
+        }
+      }
+      select {
+        option {
+          color: white;
+          background-color: $dark;
+          &[selected] {
+            color: black;
+            background-color: $prim;
+          }
+        }
+      }
+    }
+  }
+  
+  .bg-pink {
+    @include cardColor($pink, white);
+  }
+  
+  .bg-prim {
+    @include cardColor($prim, white);
+  }
+  
+  .bg-tgreen {
+    @include cardColor($tGreen);
+  }
+  
+  .bg-yellow {
+    @include cardColor($yellow, $dark);
+  }
+  

@@ -1,0 +1,28 @@
+.tool-tip {
+    font-size: 12px;
+    color: $smoke;
+    opacity: 0.9;
+    background-color: $dark;
+    padding: 10px 8px;
+    display: inline-block;
+    margin-top: 14px;
+    @include shadow(0px, 0.5px, 1px, 1px, rgba(0, 0, 0, 0.25));
+}
+
+.ad-tip {
+    position: relative;
+}
+
+.ad-tip[ad-tip]:hover:after {
+    content: attr(ad-tip);
+    position: absolute;
+    left: 20%;
+    margin-left: -20%;
+    z-index: 98;
+    opacity: 0;
+    /*max-width:auto;*/
+    animation: ad-tipAnim 0.3s ease 0s 1;
+    @extend .tool-tip;
+    opacity: 0.9;
+    /*opacity: 0.9;*/
+}

@@ -1,0 +1,77 @@
+//Button Colors
+.btn-default {
+    @include btnColor(white, $dark);
+}
+
+.btn-grey {
+    @include btnColor(darken($smoke, 2), $dark);
+}
+
+.btn-prim {
+    @include btnColor($prim);
+}
+
+.btn-dark {
+    @include btnColor($dark);
+}
+
+.btn-pink {
+    @include btnColor($pink);
+}
+
+.btn-yellow {
+    @include btnColor($yellow, rgba(black, 0.7));
+}
+
+.btn-tgreen {
+    @include btnColor($tGreen, $dark);
+}
+
+.btn-red {
+    @include btnColor($red);
+}
+
+.btn-green {
+    @include btnColor($green);
+}
+
+.btn-blue {
+    @include btnColor($blue);
+}
+
+.btn-purple {
+    @include btnColor(#871e6a);
+}
+
+//Shine BTN
+.shine-red {
+    @include btnShine($red);
+}
+
+.shine-green {
+    @include btnShine($green);
+}
+
+.shine-blue {
+    @include btnShine($blue);
+}
+
+.shine-yellow {
+    @include btnShine($yellow);
+}
+
+.shine-tgreen {
+    @include btnShine($tGreen);
+}
+
+.shine-pink {
+    @include btnShine($pink);
+}
+
+.shine-dark {
+    @include btnShine($dark);
+}
+
+.shine-purple {
+    @include btnShine(#871e6a);
+}
