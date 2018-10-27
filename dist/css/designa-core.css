@@ -849,64 +849,14 @@ h6 {
     border-color: #28d0ea; } }
 @-webkit-keyframes lds-rippleIn {
   0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
+    transform: scale(0.1); }
   100% {
-    transform: scale(0.9);
-    opacity: 0.5; } }
-@-moz-keyframes lds-rippleIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(0.9);
-    opacity: 0.5; } }
-@keyframes lds-rippleIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(0.9);
-    opacity: 0.5; } }
+    transform: scale(0.4); } }
 @-webkit-keyframes lds-rippleOut {
   0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
+    transform: scale(0.4); }
   100% {
-    transform: scale(1);
-    opacity: 0.5; } }
-@-moz-keyframes lds-rippleOut {
-  0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1);
-    opacity: 0.5; } }
-@keyframes lds-rippleOut {
-  0% {
-    transform: scale(0.1);
-    opacity: 0; }
-  90% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1);
-    opacity: 0.5; } }
+    transform: scale(1); } }
 @keyframes isLoading {
   0% {
     background-color: rgba(255, 0, 102, 0.7);
@@ -980,18 +930,30 @@ h6 {
     animation: anim-adLoading 1.5s ease-in-out 0s alternate infinite; }
 
 .is-loading {
-  position: relative; }
+  position: relative;
+  user-select: none; }
   .is-loading:after {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background-color: red;
+    width: 60px;
+    height: 60px;
     content: '';
-    display: block;
-    opacity: 1 !important;
-    animation: isLoading 1.2s ease-in-out 0s alternate infinite; }
+    left: 50%;
+    margin-left: -30px;
+    top: 50%;
+    margin-top: -30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.787);
+    transform: scale(0.6);
+    transition: all 0.3s ease-out;
+    -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate; }
+  .is-loading.ad-input:after {
+    left: 100%;
+    margin-left: -50px;
+    -webkit-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+    -mz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25); }
 
 .ad-loaded {
   width: 100px;
@@ -1009,7 +971,7 @@ h6 {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #222c37;
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 60; }
   .ad-spinner.bg-white {
     background-color: white;
@@ -1026,22 +988,32 @@ h6 {
   .ad-spinner.bg-tgreen {
     background-color: #19e3b1;
     color: #222c37; }
+  .ad-spinner:before {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    content: '';
+    left: 50%;
+    margin-left: -30px;
+    top: 50%;
+    margin-top: -30px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.644);
+    -webkit-animation: lds-rippleOut 0.4s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate-reverse; }
   .ad-spinner:after {
     position: absolute;
     width: 60px;
     height: 60px;
     content: '';
     left: 50%;
-    margin-left: -33px;
+    margin-left: -30px;
     top: 50%;
-    margin-top: -33px;
+    margin-top: -30px;
     border-radius: 50%;
-    border: 2px solid #ff0066;
-    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.787);
+    transform: scale(0.6);
     transition: all 0.3s ease-out;
-    -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1, lds-rotate 3s ease-in-out 0.5s infinite;
-    -moz-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1, lds-rotate 3s ease-in-out 0.5s infinite;
-    animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1, lds-rotate 3s ease-in-out 0.5s infinite; }
+    -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate; }
 
 .tool-tip, .ad-tip[ad-tip]:hover:after {
   font-size: 12px;
