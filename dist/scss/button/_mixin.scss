@@ -24,7 +24,9 @@
         //     background-color: $text;
         // }
     }
-
+    &:after {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
     &.clear {
         color: $color;
         background: transparent;
