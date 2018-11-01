@@ -75,6 +75,7 @@
         }
 
     }
+
 }
 
 .ad-loaded {
@@ -134,8 +135,8 @@
         margin-top: -30px;
         border-radius: 50%;
         // border: 2px solid white;
-        background-color: rgba(128, 128, 128, 0.644);
-        -webkit-animation: lds-rippleOut 0.4s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate-reverse;
+        background-color: rgba(black, 0.2);
+        -webkit-animation: lds-rippleOut 0.5s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate-reverse;
         // -webkit-animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
         // -moz-animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
         // animation: lds-rippleOut .4s cubic-bezier(0, 0.2, 0.8, 1) 1;
@@ -155,7 +156,7 @@
         background-color: rgba(255, 255, 255, 0.787);
         transform: scale(0.6);
         transition: all 0.3s ease-out;
-        -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate;
+        -webkit-animation: lds-rippleIn 0.5s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate;
         // lds-rotate 3s ease-in-out 0.5s infinite alternate;
         // -moz-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1,
         //     lds-rotate 3s ease-in-out 0.5s infinite;

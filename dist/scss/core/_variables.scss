@@ -1,5 +1,7 @@
 //   FONT
-$baseFontFamily: bariolregular, 'Open sans', serif;
+$baseFontFamily: bariolregular,
+'Open sans',
+serif;
 $baseFontSize: 14px;
 $baseFontColor: #575758;
 // BACKGROUND COLORS
@@ -8,9 +10,10 @@ $ash: #f0f0f0;
 $cream: #ccb6af;
 $torq: #7defd5;
 $lTorq: #97dae3;
-$prim: #28d0ea;
-$pink: #ff0066;
-$dark: #222c37;
+$prim: hsl(188, 82%, 54%);
+$pink: hsl(336, 100%, 50%);
+// $dark: #222c37;
+$dark: hsl(211, 24%, 14%);
 $lemon: rgb(131, 228, 9);
 $yellow: #fff600;
 $darkBlue: #363f49;

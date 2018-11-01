@@ -26,27 +26,6 @@
   
   .bg-dark {
     @include cardColor($dark, white);
-    .ad-input {
-      input {
-        background-color: rgba(black, 0.2);
-      }
-  
-      &.outline {
-        input {
-          border-color: rgba(white, 0.05);
-        }
-      }
-      select {
-        option {
-          color: white;
-          background-color: $dark;
-          &[selected] {
-            color: black;
-            background-color: $prim;
-          }
-        }
-      }
-    }
   }
   
   .bg-pink {
