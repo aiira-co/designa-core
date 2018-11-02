@@ -67,8 +67,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: bariolregular, "Open sans", serif;
-  font-size: 14px;
+  font-family: silkaregular, "Open sans", serif;
+  font-size: 13px;
   font-weight: normal;
   color: #575758;
   background-color: #f0f0f0;
@@ -99,9 +99,15 @@ body {
   outline: none; }
 
 @font-face {
-  font-family: 'bariolregular';
-  src: url("./../fonts/bariol_regular-webfont.eot");
-  src: url("./../fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("./../fonts/bariol_regular-webfont.woff2") format("woff2"), url("./../fonts/bariol_regular-webfont.woff") format("woff"), url("./../fonts/bariol_regular-webfont.ttf") format("truetype"), url("./../fonts/bariol_regular-webfont.svg#bariolregular") format("svg");
+  font-family: 'silkaregular';
+  src: url("./../webfonts/silka-regular-webfont.eot");
+  src: url("./../webfonts/silka-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./../webfonts/silka-regular-webfont.woff2") format("woff2"), url("./../webfonts/silka-regular-webfont.woff") format("woff"), url("./../webfonts/silka-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'silkaitalic';
+  src: url("./../webfonts/silka-regularitalic-webfont.eot");
+  src: url("./../webfonts/silka-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("./../webfonts/silka-regularitalic-webfont.woff2") format("woff2"), url("./../webfonts/silka-regularitalic-webfont.woff") format("woff"), url("./../webfonts/silka-regularitalic-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 h1,
@@ -157,6 +163,51 @@ h6 {
 
 .ad-spread {
   letter-spacing: 4px; }
+
+.text-size10 {
+  font-size: 10px; }
+
+.text-size11 {
+  font-size: 11px; }
+
+.text-size12 {
+  font-size: 12px; }
+
+.text-size13 {
+  font-size: 13px; }
+
+.text-size14 {
+  font-size: 14px; }
+
+.text-size16 {
+  font-size: 16px; }
+
+.text-size18 {
+  font-size: 18px; }
+
+.text-size20 {
+  font-size: 20px; }
+
+.text-size24 {
+  font-size: 24px; }
+
+.text-size30 {
+  font-size: 30px; }
+
+.text-size36 {
+  font-size: 36px; }
+
+.text-size48 {
+  font-size: 48px; }
+
+.text-size60 {
+  font-size: 60px; }
+
+.text-size72 {
+  font-size: 72px; }
+
+.text-size90 {
+  font-size: 90px; }
 
 /*//COLORS*/
 .color-pink {
@@ -662,7 +713,7 @@ h6 {
 
 .ad-btn.ad-xs {
   padding: 5px 8px;
-  font-size: 10px;
+  font-size: 9px;
   height: 27px; }
   .ad-btn.ad-xs.ad-icon {
     padding: 0;
@@ -680,7 +731,7 @@ h6 {
 .ad-btn.ad-md {
   line-height: 42px;
   padding: 0 25px;
-  font-size: 16px; }
+  font-size: 17px; }
   .ad-btn.ad-md.ad-icon {
     padding: 0;
     width: 50px;
@@ -688,7 +739,7 @@ h6 {
     line-height: 50px; }
 .ad-btn.ad-lg {
   padding: 15px 20px;
-  font-size: 19px; }
+  font-size: 18px; }
   .ad-btn.ad-lg.ad-icon {
     padding: 0;
     width: 60px;
