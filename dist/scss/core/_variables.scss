@@ -2,6 +2,15 @@
 // $baseFontFamily: bariolregular,
 // 'Open sans',
 // serif;
+
+:root {
+    --pure-designa-primary-rgb: 33, 150, 243;
+    --pure-designa-onprimary-rgb: 255, 255, 255;
+    --pure-designa-surface-rgb: 255, 255, 255;
+    --pure-designa-onsurface-rgb: 0, 0, 0;
+}
+
+
 $baseFontFamily: silkaregular,
 'Open sans',
 serif;
@@ -9,12 +18,14 @@ $baseFontSize: 13px;
 $baseLetterSpacing : 0.03em;
 $baseFontColor: #575758;
 // BACKGROUND COLORS
+$prim: rgb(41, 208, 233);
+// $sec: var(--pure-designa-primary-rgb);
 $smoke: whitesmoke;
 $ash: #f0f0f0;
 $cream: #ccb6af;
 $torq: #7defd5;
 $lTorq: #97dae3;
-$prim: hsl(188, 82%, 54%);
+$cyan: rgb(41, 208, 233);
 $pink: hsl(336, 100%, 50%);
 // $dark: #222c37;
 $dark: hsl(211, 24%, 14%);

@@ -15,11 +15,11 @@
 // Silka
 @font-face {
     font-family: 'silkaregular';
-    src: url('./../webfonts/silka-regular-webfont.eot');
-    src: url('./../webfonts/silka-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./../webfonts/silka-regular-webfont.woff2') format('woff2'),
-         url('./../webfonts/silka-regular-webfont.woff') format('woff'),
-         url('./../webfonts/silka-regular-webfont.ttf') format('truetype');
+    src: url('../webfonts/silka-regular-webfont.eot');
+    src: url('../webfonts/silka-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/silka-regular-webfont.woff2') format('woff2'),
+        url('../webfonts/silka-regular-webfont.woff') format('woff'),
+        url('../webfonts/silka-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -29,13 +29,13 @@
 
 
 @font-face {
-    font-family: 'silkaitalic';
-    src: url('./../webfonts/silka-regularitalic-webfont.eot');
-    src: url('./../webfonts/silka-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./../webfonts/silka-regularitalic-webfont.woff2') format('woff2'),
-         url('./../webfonts/silka-regularitalic-webfont.woff') format('woff'),
-         url('./../webfonts/silka-regularitalic-webfont.ttf') format('truetype');
+    font-family: 'silkaregular';
+    src: url('../webfonts/silka-regularitalic-webfont.eot');
+    src: url('../webfonts/silka-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/silka-regularitalic-webfont.woff2') format('woff2'),
+        url('../webfonts/silka-regularitalic-webfont.woff') format('woff'),
+        url('../webfonts/silka-regularitalic-webfont.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }

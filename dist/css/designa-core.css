@@ -5,6 +5,12 @@
 
 */
 /* BASE-- base, variables, mixins, normalize */
+:root {
+  --pure-designa-primary-rgb: 33, 150, 243;
+  --pure-designa-onprimary-rgb: 255, 255, 255;
+  --pure-designa-surface-rgb: 255, 255, 255;
+  --pure-designa-onsurface-rgb: 0, 0, 0; }
+
 /* COLORS PRESETS  */
 /* COLORS Buttons*/
 hr {
@@ -65,6 +71,7 @@ a {
 
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   font-family: silkaregular, "Open sans", serif;
@@ -100,16 +107,16 @@ body {
 
 @font-face {
   font-family: 'silkaregular';
-  src: url("./../webfonts/silka-regular-webfont.eot");
-  src: url("./../webfonts/silka-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./../webfonts/silka-regular-webfont.woff2") format("woff2"), url("./../webfonts/silka-regular-webfont.woff") format("woff"), url("./../webfonts/silka-regular-webfont.ttf") format("truetype");
+  src: url("../webfonts/silka-regular-webfont.eot");
+  src: url("../webfonts/silka-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/silka-regular-webfont.woff2") format("woff2"), url("../webfonts/silka-regular-webfont.woff") format("woff"), url("../webfonts/silka-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'silkaitalic';
-  src: url("./../webfonts/silka-regularitalic-webfont.eot");
-  src: url("./../webfonts/silka-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("./../webfonts/silka-regularitalic-webfont.woff2") format("woff2"), url("./../webfonts/silka-regularitalic-webfont.woff") format("woff"), url("./../webfonts/silka-regularitalic-webfont.ttf") format("truetype");
+  font-family: 'silkaregular';
+  src: url("../webfonts/silka-regularitalic-webfont.eot");
+  src: url("../webfonts/silka-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/silka-regularitalic-webfont.woff2") format("woff2"), url("../webfonts/silka-regularitalic-webfont.woff") format("woff"), url("../webfonts/silka-regularitalic-webfont.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: italic; }
 h1,
 h2,
 h3,
@@ -217,7 +224,7 @@ h6 {
   color: #1b232c; }
 
 .color-prim {
-  color: #2ad0ea; }
+  color: #29d0e9; }
 
 .color-tgreen {
   color: #19e3b1; }
@@ -309,7 +316,7 @@ h6 {
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3); }
 
 .bg-prim {
-  background-color: #2ad0ea;
+  background-color: #29d0e9;
   color: white; }
   .bg-prim.hover:hover {
     -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -384,7 +391,7 @@ h6 {
     opacity: 0.2; } }
 @-webkit-keyframes lds-rotate {
   0% {
-    border-color: #2ad0ea; }
+    border-color: #29d0e9; }
   30% {
     border-color: #ff0066; }
   50% {
@@ -392,10 +399,10 @@ h6 {
   70% {
     border-color: #ff0066; }
   100% {
-    border-color: #2ad0ea; } }
+    border-color: #29d0e9; } }
 @-moz-keyframes lds-rotate {
   0% {
-    border-color: #2ad0ea; }
+    border-color: #29d0e9; }
   30% {
     border-color: #ff0066; }
   50% {
@@ -403,10 +410,10 @@ h6 {
   70% {
     border-color: #ff0066; }
   100% {
-    border-color: #2ad0ea; } }
+    border-color: #29d0e9; } }
 @keyframes lds-rotate {
   0% {
-    border-color: #2ad0ea; }
+    border-color: #29d0e9; }
   30% {
     border-color: #ff0066; }
   50% {
@@ -414,7 +421,7 @@ h6 {
   70% {
     border-color: #ff0066; }
   100% {
-    border-color: #2ad0ea; } }
+    border-color: #29d0e9; } }
 @-webkit-keyframes lds-rippleIn {
   0% {
     transform: scale(0.1); }
@@ -439,7 +446,7 @@ h6 {
 @keyframes anim-adLoading {
   0% {
     left: -5%;
-    background-color: #2ad0ea; }
+    background-color: #29d0e9; }
   30% {
     background-color: #ff0066; }
   50% {
@@ -447,7 +454,7 @@ h6 {
   70% {
     background-color: #ff0066; }
   100% {
-    background-color: #2ad0ea;
+    background-color: #29d0e9;
     left: 95%; } }
 .ad-snackbar {
   display: block;
@@ -486,7 +493,7 @@ h6 {
   width: 100vw;
   height: 4px;
   z-index: 1000;
-  background-color: rgba(42, 208, 234, 0.2); }
+  background-color: rgba(41, 208, 233, 0.2); }
   .ad-loading::after {
     position: absolute;
     left: -5%;
@@ -494,7 +501,7 @@ h6 {
     width: 10%;
     height: 4px;
     bottom: 0;
-    background-color: #2ad0ea;
+    background-color: #29d0e9;
     animation: anim-adLoading 1.5s ease-in-out 0s alternate infinite; }
 
 .is-loading {
@@ -548,7 +555,7 @@ h6 {
     background-color: whitesmoke;
     color: #1b232c; }
   .ad-spinner.bg-prim {
-    background-color: #2ad0ea;
+    background-color: #29d0e9;
     color: white; }
   .ad-spinner.bg-pink {
     background-color: #ff0066;
@@ -583,12 +590,13 @@ h6 {
     transition: all 0.3s ease-out;
     -webkit-animation: lds-rippleIn 0.5s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate; }
 
-.tool-tip, .ad-tip[ad-tip]:hover:after {
+.tool-tip, [title]:after {
   font-size: 12px;
   color: white;
   background-color: #1b232c;
-  padding: 4px 8px;
+  padding: 6px 8px;
   display: inline-block;
+  border-radius: 3px;
   margin-top: 14px;
   -webkit-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
@@ -596,20 +604,20 @@ h6 {
   -mz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25); }
 
-.ad-tip {
+[title] {
   position: relative; }
-
-.ad-tip[ad-tip]:hover:after {
-  content: attr(ad-tip);
-  position: absolute;
-  left: 20%;
-  margin-left: -20%;
-  z-index: 98;
-  opacity: 0;
-  /*max-width:auto;*/
-  animation: ad-tipAnim 0.3s ease 0s 1;
-  opacity: 1;
-  /*opacity: 0.9;*/ }
+  [title]:after {
+    content: attr(title);
+    position: absolute;
+    left: 20%;
+    margin-left: -20%;
+    z-index: 98;
+    opacity: 0; }
+  [title]:hover:after {
+    content: attr(title);
+    animation: ad-tipAnim 0.3s ease 0s 1;
+    opacity: 1;
+    /*opacity: 0.9;*/ }
 
 .ad-divider {
   padding: 16px;
@@ -662,15 +670,15 @@ h6 {
   .ad-btn:hover, .ad-btn:focus, .ad-btn.focus {
     color: inherit;
     text-decoration: none;
-    -webkit-box-shadow: 0 0 3px 2px #2ad0ea;
-    -moz-box-shadow: 0 0 3px 2px #2ad0ea;
-    -o-box-shadow: 0 0 3px 2px #2ad0ea;
-    -mz-box-shadow: 0 0 3px 2px #2ad0ea;
-    box-shadow: 0 0 3px 2px #2ad0ea; }
+    -webkit-box-shadow: 0 0 3px 2px #29d0e9;
+    -moz-box-shadow: 0 0 3px 2px #29d0e9;
+    -o-box-shadow: 0 0 3px 2px #29d0e9;
+    -mz-box-shadow: 0 0 3px 2px #29d0e9;
+    box-shadow: 0 0 3px 2px #29d0e9; }
   .ad-btn:active, .ad-btn.active {
     background-image: none;
     outline: 0;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2ad0ea; }
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #29d0e9; }
   .ad-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed; }
@@ -829,31 +837,31 @@ h6 {
       color: #1b232c; }
 
 .btn-prim {
-  background-color: #2ad0ea;
+  background-color: #29d0e9;
   color: white;
   outline: none; }
   .btn-prim:hover, .btn-prim:focus {
-    background-color: #16c4df;
+    background-color: #17c3dd;
     color: white;
     box-shadow: none; }
   .btn-prim:active {
     color: white;
-    background-color: #17cce8; }
+    background-color: #18cbe6; }
   .btn-prim:after {
     background-color: rgba(0, 0, 0, 0.2); }
   .btn-prim.clear {
-    color: #2ad0ea;
+    color: #29d0e9;
     background: transparent;
     box-shadow: none; }
     .btn-prim.clear:hover {
-      text-shadow: 0px 0px 2px #4fd8ee; }
+      text-shadow: 0px 0px 2px #4ed8ed; }
   .btn-prim.outline {
-    color: #2ad0ea;
+    color: #29d0e9;
     background: transparent;
-    box-shadow: 0px 0px 3px 0px rgba(42, 208, 234, 0.1) inset, 0px 0px 0px 1.5px rgba(42, 208, 234, 0.8); }
+    box-shadow: 0px 0px 3px 0px rgba(41, 208, 233, 0.1) inset, 0px 0px 0px 1.5px rgba(41, 208, 233, 0.8); }
     .btn-prim.outline:hover {
       box-shadow: none;
-      background-color: #2ad0ea;
+      background-color: #29d0e9;
       color: white; }
 
 .btn-dark {
