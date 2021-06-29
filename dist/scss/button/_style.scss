@@ -22,6 +22,14 @@
         }
     }
 
+    &.ad-rounder{
+        border-radius:8px !important;
+
+        &.ad-icon{
+            border-radius:40% !important;
+        }
+    }
+
     &.ad-flat {
         box-shadow: none;
         text-shadow: none;

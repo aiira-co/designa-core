@@ -81,16 +81,42 @@
 
 // Button Groups
 .ad-btn-group {
-  margin: 8px; // background-color:rgb(255, 0, 0);
-  // overflow:hidden;
-  border-radius: 3px;
-  display: inline-block;
-  border-radius: 0;
+  margin:8px;
+  display:inline-flex;
+  flex-wrap:nowrap;
+  overflow-x:auto;
+
+  -webkit-scrollbar:none;
+  scroll-snap-type:x mandatory;
+
+  border-radius:0;
+  border-radius:5px;
+
+  -ms-overflow-style: none; // IE 10+
+  scrollbar-width: none; // Firefox
+  
+  &::-webkit-scrollbar{display:none}
+
+
   .ad-btn {
-    margin: 0 -2px;
-    border-radius: 0;
+    scroll-snap-align:center;
+    margin:0;
+    border-radius:0;
+    box-shadow:none;
+    border-radius:5px;
+
+
     i {
       margin: 0;
+    }
+    &:not(.active){
+      color:inherit;
+      background-color:transparent;
+      opacity:.7;
+      &:hover{
+        opacity:1;
+        background-color:rgba(255,255,255,.1)
+      }
     }
     &:first-child {
       border-radius: 3px 0 0 3px;
@@ -105,11 +131,9 @@
     }
   }
   &.ad-round {
-    .ad-btn:first-child {
-      border-radius: 30px 0 0 30px;
-    }
-    .ad-btn:last-child {
-      border-radius: 0 30px 30px 0;
+    border-radius:30px;
+    .ad-btn {
+      border-radius:  30px;
     }
   }
   &.ad-flat {

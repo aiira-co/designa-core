@@ -4,6 +4,10 @@
     @include cardColor(#fff, $dark);
   }
   
+.bg-smoke {
+    @include cardColor($smoke, $dark);
+  }
+  
   .bg-tq {
     @include cardColor(#227586);
   }
@@ -26,6 +30,13 @@
   
   .bg-dark {
     @include cardColor($dark, white);
+  }
+  .bg-darker {
+    @include cardColor($darker, white);
+  }
+  
+  .bg-black {
+    @include cardColor($black, white);
   }
   
   .bg-pink {
