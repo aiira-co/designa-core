@@ -11,6 +11,10 @@
     @include btnColor($prim);
 }
 
+.btn-sec {
+    @include btnColor($sec);
+}
+
 .btn-dark {
     @include btnColor($dark);
 }

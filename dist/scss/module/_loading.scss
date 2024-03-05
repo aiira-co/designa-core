@@ -1,5 +1,5 @@
 // Modify it if posible. the animation is wrong
-.ad-loading {
+.#{$classPrefix}-loading {
     display: block;
     position: fixed;
     left: 0;
@@ -65,7 +65,7 @@
     }
 
 
-    &.ad-input {
+    &.#{$classPrefix}-input {
 
         &:after {
             left: 100%;
@@ -76,7 +76,7 @@
 
     }
 
-    &.ad-btn{
+    &.#{$classPrefix}-btn{
         &:after {
             transform: scale(0.4);
         }
@@ -84,7 +84,7 @@
 
 }
 
-.ad-loaded {
+.#{$classPrefix}-loaded {
     width: 100px;
     height: 100px;
     margin: 16px;
@@ -96,7 +96,7 @@
 }
 
 
-.ad-spinner {
+.#{$classPrefix}-spinner {
     position: absolute;
     left: 0;
     right: 0;

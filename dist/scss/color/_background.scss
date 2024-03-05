@@ -47,6 +47,10 @@
     @include cardColor($prim, white);
   }
   
+  .bg-sec {
+    @include cardColor($sec, white);
+  }
+  
   .bg-tgreen {
     @include cardColor($tGreen);
   }

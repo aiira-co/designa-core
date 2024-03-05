@@ -1,10 +1,10 @@
-.ad-btn {
-    &.ad-block {
+.#{$classPrefix}-btn {
+    &.#{$classPrefix}-block {
         border-radius: 0 !important;
     }
 
     //Button Colors
-    &.ad-default {
+    &.#{$classPrefix}-default {
         color: $dark;
         background-color: darken($smoke, 20);
 
@@ -14,31 +14,31 @@
     }
 
     //Button Type
-    &.ad-round {
+    &.#{$classPrefix}-round {
         border-radius: 30px !important;
 
-        &.ad-icon {
+        &.#{$classPrefix}-icon {
             border-radius: 50% !important;
         }
     }
 
-    &.ad-rounder{
+    &.#{$classPrefix}-rounder{
         border-radius:8px !important;
 
-        &.ad-icon{
+        &.#{$classPrefix}-icon{
             border-radius:40% !important;
         }
     }
 
-    &.ad-ellipse{
+    &.#{$classPrefix}-ellipse{
         border-radius:12px !important;
 
-        &.ad-icon{
+        &.#{$classPrefix}-icon{
             border-radius:40% !important;
         }
     }
 
-    &.ad-flat {
+    &.#{$classPrefix}-flat {
         box-shadow: none;
         text-shadow: none;
         border: none;

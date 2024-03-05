@@ -1,4 +1,4 @@
-.ad-btn {
+.#{$classPrefix}-btn {
   position: relative;
   display: inline-block;
   padding: 6px 12px;
@@ -51,15 +51,15 @@
     opacity: 0.5;
     cursor: not-allowed;
   }
-  &.ad-shadow {
-    @extend .ad-shadow;
+  &.#{$classPrefix}-shadow {
+    @extend .#{$classPrefix}-shadow;
   }
   i {
     padding: 0; // margin:0;
     margin-right: 12px; // background-color:red;
     // padding-left: 3px;
   }
-  &.ad-icon {
+  &.#{$classPrefix}-icon {
     // padding: 20px;
     padding: 0;
     width: 32px;
@@ -80,7 +80,7 @@
 
 
 // Button Groups
-.ad-btn-group {
+.#{$classPrefix}-btn-group {
   margin:8px;
   display:inline-flex;
   flex-wrap:nowrap;
@@ -98,7 +98,7 @@
   &::-webkit-scrollbar{display:none}
 
 
-  .ad-btn {
+  .#{$classPrefix}-btn {
     scroll-snap-align:center;
     margin:0;
     border-radius:0;
@@ -125,20 +125,20 @@
       border-radius: 0 3px 3px 0;
     }
   }
-  &.ad-block {
-    .ad-btn {
+  &.#{$classPrefix}-block {
+    .#{$classPrefix}-btn {
       border-radius: 0;
     }
   }
-  &.ad-round {
+  &.#{$classPrefix}-round {
     border-radius:30px;
-    .ad-btn {
+    .#{$classPrefix}-btn {
       border-radius:  30px;
     }
   }
-  &.ad-flat {
-    .ad-btn {
-      @extend .ad-flat;
+  &.#{$classPrefix}-flat {
+    .#{$classPrefix}-btn {
+      @extend .#{$classPrefix}-flat;
     }
   }
 }

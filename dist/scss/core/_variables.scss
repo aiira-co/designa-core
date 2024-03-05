@@ -4,22 +4,30 @@
 // serif;
 
 :root {
-    --pure-designa-primary-rgb: 33, 150, 243;
-    --pure-designa-onprimary-rgb: 255, 255, 255;
-    --pure-designa-surface-rgb: 255, 255, 255;
-    --pure-designa-onsurface-rgb: 0, 0, 0;
+    --designa-primary-rgb: #29d0e9;
+    --designa-secondary-rgb:#ff0066;
+
+    --designa-font-size: .875rem;
+    --designa-font-color: #575758;
+    --designa-letter-spacing: 0.03em;
+    --designa-letter-spacing: 0.03em;
+
+    --designa-surface-rgb: 255, 255, 255;
+    --designa-onsurface-rgb: 0, 0, 0;
 }
 
+$classPrefix:'adx';
 
-$baseFontFamily: silkaregular,
+$baseFontFamily: silka,
 'Open sans',
 serif;
-$baseFontSize: 13px;
-$baseLetterSpacing : 0.03em;
-$baseFontColor: #575758;
+$baseFontSize: var(--designa-font-size);
+$baseLetterSpacing : var(--designa-letter-spacing);
+$baseFontColor: var(--designa-font-color);
 // BACKGROUND COLORS
-$prim: #29d0e9;
-// $sec: var(--pure-designa-primary-rgb);
+$prim: #29d0e9;//var(--designa-primary-rgb);
+$sec:#ff0066;// var(--designa-secondary-rgb);
+
 $smoke: rgb(247, 247, 247);
 $ash: #f0f0f0;
 $cream: #ccb6af;

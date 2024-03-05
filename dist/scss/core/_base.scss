@@ -29,7 +29,7 @@ body {
 
 // Webkit Scrollbar
 ::-webkit-scrollbar {
-  background-color: whitesmoke;
+  background-color: #f7f7f7;
   width: 8px;
   @include transEase(0.3s);
 }

@@ -17,7 +17,7 @@ a {
   visibility: visible;
 }
 
-.ad-show {
+.#{$classPrefix}-show {
   display: block !important;
   @extend .visible;
 }
@@ -59,11 +59,11 @@ a {
   clear: both;
 }
 
-.ad-flat {
+.#{$classPrefix}-flat {
   box-shadow: none !important;
 }
 
-.ad-shadow {
+.#{$classPrefix}-shadow {
   box-shadow: none;
   @include shadow(0px, 5px, 16px, 3px, rgba(black, 0.1));
 }

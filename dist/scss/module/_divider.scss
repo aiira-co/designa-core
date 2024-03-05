@@ -1,12 +1,12 @@
-.ad-divider {
+.#{$classPrefix}-divider {
     padding: 16px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     opacity: 0.6;
     color: inherit;
-    font-weight: bold;
+    font-weight: 500;
 }
 
-.ad-section {
+.#{$classPrefix}-section {
     display: inline-flex;
     width: 100%;
     height: auto;
