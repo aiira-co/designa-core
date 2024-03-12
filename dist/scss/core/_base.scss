@@ -1,3 +1,6 @@
+:root{
+  font-size: 62.5%;
+}
 html,
 body {
   scroll-behavior: smooth;
@@ -30,7 +33,7 @@ body {
 // Webkit Scrollbar
 ::-webkit-scrollbar {
   background-color: #f7f7f7;
-  width: 8px;
+  width: 0.8rem;
   @include transEase(0.3s);
 }
 
@@ -40,11 +43,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  //   border-radius: 2.5px;
+  //   border-radius: 2.0.5rem;
   //   width: 4px;
   //   background-color: rgba($dark, 0.8);
   background-color: #818b99;
-  border: 3px solid transparent;
+  border: 0.3rem solid transparent;
   border-radius: 9px;
   background-clip: content-box;
 }

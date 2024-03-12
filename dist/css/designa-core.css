@@ -8,7 +8,7 @@
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: .875rem;
+  --designa-font-size: 1.3rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -20,7 +20,7 @@
 /* COLORS Buttons*/
 hr {
   opacity: 0.5;
-  margin: 8px 0;
+  margin: 0.8rem 0;
 }
 
 a {
@@ -41,11 +41,11 @@ a {
 }
 
 .padding {
-  padding: 16px !important;
+  padding: 1.6rem !important;
 }
 
 .padding-sm {
-  padding: 8px !important;
+  padding: 0.8rem !important;
 }
 
 .no-padding {
@@ -53,11 +53,11 @@ a {
 }
 
 .margin {
-  margin: 16px;
+  margin: 1.6rem;
 }
 
 .margin-sm {
-  margin: 8px;
+  margin: 0.8rem;
 }
 
 .no-margin {
@@ -83,11 +83,15 @@ a {
 
 .adx-shadow, .adx-btn.adx-shadow {
   box-shadow: none;
-  -webkit-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -mz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -mz-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  font-size: 62.5%;
 }
 
 html,
@@ -116,7 +120,7 @@ body {
 
 ::-webkit-scrollbar {
   background-color: #f7f7f7;
-  width: 8px;
+  width: 0.8rem;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -130,7 +134,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: #818b99;
-  border: 3px solid transparent;
+  border: 0.3rem solid transparent;
   border-radius: 9px;
   background-clip: content-box;
 }
@@ -221,10 +225,10 @@ h6 .thin {
 }
 
 .adx-title {
-  font-size: 1.125rem;
+  font-size: 1.8rem;
   color: inherit;
   margin: 0;
-  margin-top: 16px;
+  margin-top: 1.6rem;
   display: inline-block;
   vertical-align: top;
   font-weight: 500;
@@ -265,67 +269,67 @@ h6 .thin {
 }
 
 .adx-spread {
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
 }
 
 .text-size10 {
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 .text-size11 {
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .text-size12 {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .text-size13 {
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .text-size14 {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .text-size16 {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .text-size18 {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .text-size20 {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .text-size24 {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .text-size30 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .text-size36 {
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 .text-size48 {
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 .text-size60 {
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 .text-size72 {
-  font-size: 72px;
+  font-size: 7.2rem;
 }
 
 .text-size90 {
-  font-size: 90px;
+  font-size: 9rem;
 }
 
 /*//COLORS*/
@@ -599,27 +603,27 @@ h6 .thin {
 
 @keyframes notify {
   0% {
-    right: -568px;
+    right: -560.8rem;
     display: block;
     opacity: 0;
   }
   10% {
-    right: -568px;
+    right: -560.8rem;
     display: block;
     opacity: 0;
   }
   20% {
-    right: 24px;
+    right: 2.4rem;
     display: block;
     opacity: 1;
   }
   90% {
-    right: 24px;
+    right: 2.4rem;
     display: block;
     opacity: 1;
   }
   100% {
-    right: -568px;
+    right: -560.8rem;
     display: none;
     opacity: 0;
   }
@@ -633,7 +637,7 @@ h6 .thin {
   from {
     height: auto;
     opacity: 0.95;
-    margin-top: 20px;
+    margin-top: 2rem;
     /*background-color:blue;*/
   }
 }
@@ -726,7 +730,7 @@ h6 .thin {
 @keyframes isLoading {
   0% {
     background-color: rgba(255, 0, 102, 0.7);
-    left: 16px;
+    left: 1.6rem;
     right: 80%;
   }
   50% {
@@ -734,7 +738,7 @@ h6 .thin {
   }
   100% {
     left: 80%;
-    right: 16px;
+    right: 1.6rem;
     background-color: rgba(255, 0, 102, 0.7);
   }
 }
@@ -760,14 +764,14 @@ h6 .thin {
 .adx-snackbar {
   display: block;
   opacity: 0;
-  height: 48px;
-  min-width: 288px;
-  max-width: 568px;
+  height: 40.8rem;
+  min-width: 280.8rem;
+  max-width: 560.8rem;
   border-radius: 2px;
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   position: fixed;
-  bottom: 24px;
-  right: -568px;
+  bottom: 2.4rem;
+  right: -560.8rem;
   background-color: #1c1c1c;
   padding: 0;
   color: white;
@@ -776,17 +780,17 @@ h6 .thin {
   animation: notify 5s 1 ease;
 }
 .adx-snackbar p {
-  padding: 14px 24px;
+  padding: 14px 2.4rem;
   display: inline-block;
   margin: 0;
   margin-top: 2px;
 }
 .adx-snackbar p + .adx-btn {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
 }
 .adx-snackbar .adx-btn {
-  font-size: 0.875rem;
+  font-size: 1.4rem;
 }
 
 .adx-loading {
@@ -821,9 +825,9 @@ h6 .thin {
   height: 60px;
   content: "";
   left: 50%;
-  margin-left: -30px;
+  margin-left: -3rem;
   top: 50%;
-  margin-top: -30px;
+  margin-top: -3rem;
   border-radius: 50%;
   border: 4px solid white;
   transform: scale(0.6);
@@ -833,11 +837,11 @@ h6 .thin {
 .is-loading.adx-input:after {
   left: 100%;
   margin-left: -50px;
-  -webkit-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -o-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -mz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -mz-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
 }
 .is-loading.adx-btn:after {
   transform: scale(0.4);
@@ -846,7 +850,7 @@ h6 .thin {
 .adx-loaded {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 1.6rem;
   background-color: blue;
   position: relative;
   border-radius: 50%;
@@ -889,9 +893,9 @@ h6 .thin {
   height: 60px;
   content: "";
   left: 50%;
-  margin-left: -32px;
+  margin-left: -3.2rem;
   top: 50%;
-  margin-top: -32px;
+  margin-top: -3.2rem;
   border-radius: 50%;
   border: 2px solid white;
   -webkit-animation: lds-rippleOut 0.5s cubic-bezier(0, 0.2, 0.8, 1) infinite alternate-reverse;
@@ -902,9 +906,9 @@ h6 .thin {
   height: 60px;
   content: "";
   left: 50%;
-  margin-left: -30px;
+  margin-left: -3rem;
   top: 50%;
-  margin-top: -30px;
+  margin-top: -3rem;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.787);
   transform: scale(0.6);
@@ -913,18 +917,18 @@ h6 .thin {
 }
 
 .tool-tip, [title]:after {
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   color: white;
   background-color: #1c1c1c;
-  padding: 6px 8px;
+  padding: 6px 0.8rem;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 0.3rem;
   margin-top: 14px;
-  -webkit-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -o-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  -mz-box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  -mz-box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0 0.5rem 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 [title] {
@@ -946,8 +950,8 @@ h6 .thin {
 }
 
 .adx-divider {
-  padding: 16px;
-  font-size: 0.8125rem;
+  padding: 1.6rem;
+  font-size: 1.3rem;
   opacity: 0.6;
   color: inherit;
   font-weight: 500;
@@ -964,8 +968,8 @@ h6 .thin {
 .adx-btn {
   position: relative;
   display: inline-block;
-  padding: 6px 12px;
-  margin: 8px;
+  padding: 0.6rem 1.2rem;
+  margin: 0.8rem;
   font-weight: normal;
   text-align: center;
   white-space: nowrap;
@@ -981,14 +985,14 @@ h6 .thin {
   border: 1px solid transparent;
   font-family: inherit;
   border-radius: 0;
-  border-radius: 3px;
+  border-radius: 0.3rem;
   background-color: white;
   border: medium none;
-  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
-  -mz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+  -mz-box-shadow: 0 0 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
   -o-transition: all 0.2s ease-out 0s;
@@ -1000,16 +1004,16 @@ h6 .thin {
 .adx-btn:hover, .adx-btn:focus, .adx-btn.focus {
   color: inherit;
   text-decoration: none;
-  -webkit-box-shadow: 0 0 3px 2px #29d0e9;
-  -moz-box-shadow: 0 0 3px 2px #29d0e9;
-  -o-box-shadow: 0 0 3px 2px #29d0e9;
-  -mz-box-shadow: 0 0 3px 2px #29d0e9;
-  box-shadow: 0 0 3px 2px #29d0e9;
+  -webkit-box-shadow: 0 0 0.3rem 2px #29d0e9;
+  -moz-box-shadow: 0 0 0.3rem 2px #29d0e9;
+  -o-box-shadow: 0 0 0.3rem 2px #29d0e9;
+  -mz-box-shadow: 0 0 0.3rem 2px #29d0e9;
+  box-shadow: 0 0 0.3rem 2px #29d0e9;
 }
 .adx-btn:active, .adx-btn.active {
   background-image: none;
   outline: 0;
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #29d0e9;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #29d0e9;
 }
 .adx-btn:disabled {
   opacity: 0.5;
@@ -1021,28 +1025,28 @@ h6 .thin {
 }
 .adx-btn.adx-icon {
   padding: 0;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
 }
 .adx-btn.adx-icon i {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   text-align: center;
-  line-height: 20px;
+  line-height: 2rem;
   margin: 0;
 }
 
 .adx-btn-group {
-  margin: 8px;
+  margin: 0.8rem;
   display: inline-flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-scrollbar: none;
   scroll-snap-type: x mandatory;
   border-radius: 0;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -1054,7 +1058,7 @@ h6 .thin {
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 .adx-btn-group .adx-btn i {
   margin: 0;
@@ -1069,33 +1073,33 @@ h6 .thin {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .adx-btn-group .adx-btn:first-child {
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.3rem 0 0 0.3rem;
 }
 .adx-btn-group .adx-btn:last-child {
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.3rem 0.3rem 0;
 }
 .adx-btn-group.adx-block .adx-btn {
   border-radius: 0;
 }
 .adx-btn-group.adx-round {
-  border-radius: 30px;
+  border-radius: 3rem;
 }
 .adx-btn-group.adx-round .adx-btn {
-  border-radius: 30px;
+  border-radius: 3rem;
 }
 .adx-btn.adx-xs {
-  padding: 5px 8px;
+  padding: 0.5rem 0.8rem;
   font-size: var(--designa-font-size)-4;
   height: 27px;
 }
 .adx-btn.adx-xs.adx-icon {
   padding: 0;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
 }
 .adx-btn.adx-sm {
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   height: auto;
 }
 .adx-btn.adx-sm.adx-icon {
@@ -1106,8 +1110,8 @@ h6 .thin {
 }
 .adx-btn.adx-md {
   line-height: 42px;
-  padding: 0 25px;
-  font-size: 1.0625rem;
+  padding: 0 2.5rem;
+  font-size: 1.7rem;
 }
 .adx-btn.adx-md.adx-icon {
   padding: 0;
@@ -1116,7 +1120,7 @@ h6 .thin {
   line-height: 50px;
 }
 .adx-btn.adx-lg {
-  padding: 15px 20px;
+  padding: 1.5rem 2rem;
   font-size: var(--designa-font-size)5;
 }
 .adx-btn.adx-lg.adx-icon {
@@ -1145,13 +1149,13 @@ h6 .thin {
   background-color: rgb(247, 247, 247);
 }
 .adx-btn.adx-round {
-  border-radius: 30px !important;
+  border-radius: 3rem !important;
 }
 .adx-btn.adx-round.adx-icon {
   border-radius: 50% !important;
 }
 .adx-btn.adx-rounder {
-  border-radius: 8px !important;
+  border-radius: 0.8rem !important;
 }
 .adx-btn.adx-rounder.adx-icon {
   border-radius: 40% !important;
@@ -1200,7 +1204,7 @@ h6 .thin {
 .btn-default.outline {
   color: white;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.1) inset, 0px 0px 0px 1.5px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 255, 255, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 255, 255, 0.8);
 }
 .btn-default.outline:hover {
   box-shadow: none;
@@ -1236,7 +1240,7 @@ h6 .thin {
 .btn-grey.outline {
   color: #f2f2f2;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(242, 242, 242, 0.1) inset, 0px 0px 0px 1.5px rgba(242, 242, 242, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(242, 242, 242, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(242, 242, 242, 0.8);
 }
 .btn-grey.outline:hover {
   box-shadow: none;
@@ -1272,7 +1276,7 @@ h6 .thin {
 .btn-prim.outline {
   color: #29d0e9;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(41, 208, 233, 0.1) inset, 0px 0px 0px 1.5px rgba(41, 208, 233, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(41, 208, 233, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(41, 208, 233, 0.8);
 }
 .btn-prim.outline:hover {
   box-shadow: none;
@@ -1308,7 +1312,7 @@ h6 .thin {
 .btn-sec.outline {
   color: #ff0066;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1.5px rgba(255, 0, 102, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 0, 102, 0.8);
 }
 .btn-sec.outline:hover {
   box-shadow: none;
@@ -1344,7 +1348,7 @@ h6 .thin {
 .btn-dark.outline {
   color: #1c1c1c;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(28, 28, 28, 0.1) inset, 0px 0px 0px 1.5px rgba(28, 28, 28, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(28, 28, 28, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(28, 28, 28, 0.8);
 }
 .btn-dark.outline:hover {
   box-shadow: none;
@@ -1380,7 +1384,7 @@ h6 .thin {
 .btn-pink.outline {
   color: #ff0066;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1.5px rgba(255, 0, 102, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 0, 102, 0.8);
 }
 .btn-pink.outline:hover {
   box-shadow: none;
@@ -1416,7 +1420,7 @@ h6 .thin {
 .btn-yellow.outline {
   color: #fff600;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(255, 246, 0, 0.1) inset, 0px 0px 0px 1.5px rgba(255, 246, 0, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 246, 0, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 246, 0, 0.8);
 }
 .btn-yellow.outline:hover {
   box-shadow: none;
@@ -1452,7 +1456,7 @@ h6 .thin {
 .btn-tgreen.outline {
   color: #19e3b1;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(25, 227, 177, 0.1) inset, 0px 0px 0px 1.5px rgba(25, 227, 177, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(25, 227, 177, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(25, 227, 177, 0.8);
 }
 .btn-tgreen.outline:hover {
   box-shadow: none;
@@ -1488,7 +1492,7 @@ h6 .thin {
 .btn-red.outline {
   color: #f44336;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(244, 67, 54, 0.1) inset, 0px 0px 0px 1.5px rgba(244, 67, 54, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(244, 67, 54, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(244, 67, 54, 0.8);
 }
 .btn-red.outline:hover {
   box-shadow: none;
@@ -1524,7 +1528,7 @@ h6 .thin {
 .btn-green.outline {
   color: #5fcf80;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(95, 207, 128, 0.1) inset, 0px 0px 0px 1.5px rgba(95, 207, 128, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(95, 207, 128, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(95, 207, 128, 0.8);
 }
 .btn-green.outline:hover {
   box-shadow: none;
@@ -1560,7 +1564,7 @@ h6 .thin {
 .btn-blue.outline {
   color: #2196f3;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(33, 150, 243, 0.1) inset, 0px 0px 0px 1.5px rgba(33, 150, 243, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(33, 150, 243, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(33, 150, 243, 0.8);
 }
 .btn-blue.outline:hover {
   box-shadow: none;
@@ -1596,7 +1600,7 @@ h6 .thin {
 .btn-purple.outline {
   color: #871e6a;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(135, 30, 106, 0.1) inset, 0px 0px 0px 1.5px rgba(135, 30, 106, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(135, 30, 106, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(135, 30, 106, 0.8);
 }
 .btn-purple.outline:hover {
   box-shadow: none;
@@ -1605,59 +1609,59 @@ h6 .thin {
 }
 
 .shine-red:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336, 0px 0px 3px 1px #f33123;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336, 0px 0px 0.3rem 1px #f33123;
 }
 .shine-red:focus, .shine-red:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336;
 }
 
 .shine-green:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80, 0px 0px 3px 1px #4fca74;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80, 0px 0px 0.3rem 1px #4fca74;
 }
 .shine-green:focus, .shine-green:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80;
 }
 
 .shine-blue:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3, 0px 0px 3px 1px #0e8df2;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3, 0px 0px 0.3rem 1px #0e8df2;
 }
 .shine-blue:focus, .shine-blue:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3;
 }
 
 .shine-yellow:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600, 0px 0px 3px 1px #ebe200;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600, 0px 0px 0.3rem 1px #ebe200;
 }
 .shine-yellow:focus, .shine-yellow:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600;
 }
 
 .shine-tgreen:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1, 0px 0px 3px 1px #17d1a3;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1, 0px 0px 0.3rem 1px #17d1a3;
 }
 .shine-tgreen:focus, .shine-tgreen:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1;
 }
 
 .shine-pink:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066, 0px 0px 3px 1px #eb005e;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066, 0px 0px 0.3rem 1px #eb005e;
 }
 .shine-pink:focus, .shine-pink:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066;
 }
 
 .shine-dark:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c, 0px 0px 3px 1px #121212;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c, 0px 0px 0.3rem 1px #121212;
 }
 .shine-dark:focus, .shine-dark:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c;
 }
 
 .shine-purple:hover {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a, 0px 0px 3px 1px #761a5d;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a, 0px 0px 0.3rem 1px #761a5d;
 }
 .shine-purple:focus, .shine-purple:active {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a;
 }
 
 /*# sourceMappingURL=designa-core.css.map */

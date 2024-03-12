@@ -1,31 +1,31 @@
 // SnackBar Animation
 @keyframes notify {
     0% {
-        right: -568px;
+        right: -560.8rem;
         display: block;
         opacity: 0;
     }
 
     10% {
-        right: -568px;
+        right: -560.8rem;
         display: block;
         opacity: 0;
     }
 
     20% {
-        right: 24px;
+        right: 2.4rem;
         display: block;
         opacity: 1;
     }
 
     90% {
-        right: 24px;
+        right: 2.4rem;
         display: block;
         opacity: 1;
     }
 
     100% {
-        right: -568px;
+        right: -560.8rem;
         display: none;
         opacity: 0;
     }
@@ -42,7 +42,7 @@
     from {
         height: auto;
         opacity: 0.95;
-        margin-top: 20px;
+        margin-top: 2.0rem;
         /*background-color:blue;*/
     }
 }
@@ -128,21 +128,21 @@
 
 @-webkit-keyframes lds-rippleIn {
     0% {
-        // box-shadow: 0 0 1px 3px red;
+        // box-shadow: 0 0 1px 0.3rem red;
         // transform: scale(0.1);
         // opacity: 0;
         border-color: white;
     }
 
     50% {
-        // box-shadow: 0 0 1px 5px red;
+        // box-shadow: 0 0 1px 0.5rem red;
         // transform: scale(1);
         // opacity: 1;
         border-color: black;
     }
 
     100% {
-        // box-shadow: 0 0 1px 5px red;
+        // box-shadow: 0 0 1px 0.5rem red;
         // transform: scale(0.4);
         // opacity: 0.5;
         border-color: white;
@@ -152,19 +152,19 @@
 // // RippleIn
 // @-moz-keyframes lds-rippleIn {
 //     0% {
-//         // box-shadow: 0 0 1px 3px red;
+//         // box-shadow: 0 0 1px 0.3rem red;
 //         transform: scale(0.1);
 //         opacity: 0;
 //     }
 
 //     90% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 1;
 //     }
 
 //     100% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(0.9);
 //         opacity: 0.5;
 //     }
@@ -172,19 +172,19 @@
 
 // @keyframes lds-rippleIn {
 //     0% {
-//         // box-shadow: 0 0 1px 3px red;
+//         // box-shadow: 0 0 1px 0.3rem red;
 //         transform: scale(0.1);
 //         opacity: 0;
 //     }
 
 //     90% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 1;
 //     }
 
 //     100% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(0.9);
 //         opacity: 0.5;
 //     }
@@ -193,19 +193,19 @@
 // RippleOut
 @-webkit-keyframes lds-rippleOut {
     0% {
-        // box-shadow: 0 0 1px 3px red;
+        // box-shadow: 0 0 1px 0.3rem red;
         transform: scale(0.4);
         // opacity: 0;
     }
 
     // 90% {
-    //     // box-shadow: 0 0 1px 5px red;
+    //     // box-shadow: 0 0 1px 0.5rem red;
     //     transform: scale(1);
     //     opacity: 1;
     // }
 
     100% {
-        // box-shadow: 0 0 1px 5px red;
+        // box-shadow: 0 0 1px 0.5rem red;
         transform: scale(1);
         // opacity: 0.5;
     }
@@ -213,19 +213,19 @@
 
 // @-moz-keyframes lds-rippleOut {
 //     0% {
-//         // box-shadow: 0 0 1px 3px red;
+//         // box-shadow: 0 0 1px 0.3rem red;
 //         transform: scale(0.1);
 //         opacity: 0;
 //     }
 
 //     90% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 1;
 //     }
 
 //     100% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 0.5;
 //     }
@@ -233,19 +233,19 @@
 
 // @keyframes lds-rippleOut {
 //     0% {
-//         // box-shadow: 0 0 1px 3px red;
+//         // box-shadow: 0 0 1px 0.3rem red;
 //         transform: scale(0.1);
 //         opacity: 0;
 //     }
 
 //     90% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 1;
 //     }
 
 //     100% {
-//         // box-shadow: 0 0 1px 5px red;
+//         // box-shadow: 0 0 1px 0.5rem red;
 //         transform: scale(1);
 //         opacity: 0.5;
 //     }
@@ -254,7 +254,7 @@
 @keyframes isLoading {
     0% {
         background-color: rgba($pink, 0.7);
-        left: 16px;
+        left: 1.6rem;
         right: 80%;
     }
 
@@ -264,7 +264,7 @@
 
     100% {
         left: 80%;
-        right: 16px;
+        right: 1.6rem;
         background-color: rgba($pink, 0.7);
     }
 }

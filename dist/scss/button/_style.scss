@@ -15,7 +15,7 @@
 
     //Button Type
     &.#{$classPrefix}-round {
-        border-radius: 30px !important;
+        border-radius: 3.0rem !important;
 
         &.#{$classPrefix}-icon {
             border-radius: 50% !important;
@@ -23,7 +23,7 @@
     }
 
     &.#{$classPrefix}-rounder{
-        border-radius:8px !important;
+        border-radius:0.8rem !important;
 
         &.#{$classPrefix}-icon{
             border-radius:40% !important;

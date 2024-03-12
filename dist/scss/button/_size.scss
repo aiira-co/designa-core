@@ -1,24 +1,24 @@
 .#{$classPrefix}-btn {
     &.#{$classPrefix}-xs {
-        padding: 5px 8px;
+        padding: 0.5rem 0.8rem;
         font-size: $baseFontSize - 4;
         height: 27px;
 
         &.#{$classPrefix}-icon {
-            // padding: 20px;
+            // padding: 2.0rem;
             padding: 0;
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
+            width: 3.0rem;
+            height: 3.0rem;
+            line-height: 3.0rem;
         }
     }
 
     &.#{$classPrefix}-sm {
-        padding: 10px 15px;
+        padding: 1.0rem 1.5rem;
         height: auto;
 
         &.#{$classPrefix}-icon {
-            // padding: 20px;
+            // padding: 2.0rem;
             padding: 0;
             width: 40px;
             height: 40px;
@@ -28,8 +28,8 @@
 
     &.#{$classPrefix}-md {
         line-height: 42px;
-        padding: 0 25px;
-        font-size: 1.0625rem;
+        padding: 0 2.5rem;
+        font-size: 1.7rem;
 
         &.#{$classPrefix}-icon {
             padding: 0;
@@ -40,11 +40,11 @@
     }
 
     &.#{$classPrefix}-lg {
-        padding: 15px 20px;
+        padding: 1.5rem 2.0rem;
         font-size: $baseFontSize + 5;
 
         &.#{$classPrefix}-icon {
-            // padding: 20px;
+            // padding: 2.0rem;
             padding: 0;
             width: 60px;
             height: 60px;

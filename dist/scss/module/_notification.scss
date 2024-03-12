@@ -1,14 +1,14 @@
 .#{$classPrefix}-snackbar {
     display: block;
     opacity: 0;
-    height: 48px;
-    min-width: 288px;
-    max-width: 568px;
+    height: 40.8rem;
+    min-width: 280.8rem;
+    max-width: 560.8rem;
     border-radius: 2px;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
     position: fixed;
-    bottom: 24px;
-    right: -568px;
+    bottom: 2.4rem;
+    right: -560.8rem;
     background-color: $dark;
     padding: 0;
     color: white;
@@ -16,19 +16,19 @@
     z-index: 1000;
 
     p {
-        padding: 14px 24px;
+        padding: 14px 2.4rem;
         display: inline-block;
         margin: 0;
         margin-top: 2px;
 
         &+.#{$classPrefix}-btn {
-            margin-left: 24px;
-            margin-right: 24px;
+            margin-left: 2.4rem;
+            margin-right: 2.4rem;
         }
     }
 
     .#{$classPrefix}-btn {
-        font-size: 0.875rem;
+        font-size: 1.4rem;
     }
 
     animation: notify 5s 1 ease;
