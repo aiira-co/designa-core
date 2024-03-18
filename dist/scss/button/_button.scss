@@ -45,7 +45,7 @@
   &.active {
     background-image: none;
     outline: 0;
-    box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px $prim;
+    box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.1rem $prim;
   }
   &:disabled {
     opacity: 0.5;
