@@ -1,6 +1,7 @@
-:root{
+:root {
   font-size: 62.5%;
 }
+
 html,
 body {
   scroll-behavior: smooth;
@@ -56,4 +57,14 @@ body {
 // Angular Normalization
 [routerLink] {
   outline: none;
+}
+
+@media screen and (max-width: 512px) {
+  ::-webkit-scrollbar {
+    opacity: .1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    opacity: .4;
+  }
 }

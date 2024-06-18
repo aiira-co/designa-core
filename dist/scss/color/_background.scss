@@ -1,61 +1,60 @@
-
 //BACKGROUND COLORS HERE
 .bg-white {
-    @include cardColor(#fff, $dark);
-  }
-  
+  @include cardColor(#fff, $dark);
+}
+
 .bg-smoke {
-    @include cardColor($smoke, $dark);
-  }
-  
-  .bg-tq {
-    @include cardColor(#227586);
-  }
-  
-  .bg-green {
-    @include cardColor(#00796b, white);
-  }
-  
-  .bg-purple {
-    @include cardColor(#871e6a);
-  }
-  
-  .bg-color {
-    @include cardColor(#ab1656);
-  }
-  
-  .bg-blue {
-    @include cardColor($blue, white);
-  }
-  
-  .bg-dark {
-    @include cardColor($dark, white);
-  }
-  .bg-darker {
-    @include cardColor($darker, white);
-  }
-  
-  .bg-black {
-    @include cardColor($black, white);
-  }
-  
-  .bg-pink {
-    @include cardColor($pink, white);
-  }
-  
-  .bg-prim {
-    @include cardColor($prim, white);
-  }
-  
-  .bg-sec {
-    @include cardColor($sec, white);
-  }
-  
-  .bg-tgreen {
-    @include cardColor($tGreen);
-  }
-  
-  .bg-yellow {
-    @include cardColor($yellow, $dark);
-  }
-  
+  @include cardColor($smoke, $dark);
+}
+
+.bg-tq {
+  @include cardColor(#227586);
+}
+
+.bg-green {
+  @include cardColor(#00796b, white);
+}
+
+.bg-purple {
+  @include cardColor(#871e6a);
+}
+
+.bg-color {
+  @include cardColor(#ab1656);
+}
+
+.bg-blue {
+  @include cardColor($blue, white);
+}
+
+.bg-dark {
+  @include cardColor(#171717, white);
+}
+
+.bg-darker {
+  @include cardColor($darker, white);
+}
+
+.bg-black {
+  @include cardColor($black, white);
+}
+
+.bg-pink {
+  @include cardColor($pink, white);
+}
+
+.bg-prim {
+  @include cardColor($prim, white);
+}
+
+.bg-sec {
+  @include cardColor($sec, white);
+}
+
+.bg-tgreen {
+  @include cardColor($tGreen);
+}
+
+.bg-yellow {
+  @include cardColor($yellow, $dark);
+}
